@@ -11,7 +11,7 @@ app.get('/',(req,res) => {
     res.send('Hello world!')
 })
 
-app.get('/jokes',(req,res)=>{
+app.get('/api/jokes',(req,res)=>{
     const jokes = [
         {
             id: "joke1",
@@ -19,7 +19,7 @@ app.get('/jokes',(req,res)=>{
         },
         {
             id: "joke2",
-            title: "first joke"
+            title: "second joke"
         },
         {
             id: "joke3",
